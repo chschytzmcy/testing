@@ -1,0 +1,19 @@
+2022-09-13 04:29:16,435 INFO [test_mqtt.py(test_check_mqtt:22)] - 接口用例数据：['1', '检测mqtt', 'http://test-cloudmon.etsme.com', '/v1/manager/checkMqtt', 'post', '{\n    "sn":"E1100200024219000131"\n}', '"code": 0', 'message', '', '']
+2022-09-13 04:29:16,436 INFO [request_util.py(api_preprocess:11)] - 请求原始数据：{
+    "sn":"E1100200024219000131"
+}
+2022-09-13 04:29:16,437 INFO [request_util.py(api_preprocess:35)] - 请求数据预处理结果：{
+    "sn":"E1100200024219000131"
+}
+2022-09-13 04:29:16,531 INFO [request_util.py(api_request:85)] - 接口调用成功！
+2022-09-13 04:29:16,533 INFO [request_util.py(api_request:86)] - 响应数据：{
+  "code": 0,
+  "message": "check mqtt success.",
+  "payload": null
+}
+2022-09-13 04:29:16,533 INFO [request_util.py(api_postprocess:58)] - 关联参数提取成功：【message: check mqtt success.】
+2022-09-13 04:29:16,534 INFO [assert_util.py(assert_keyword:11)] - 【"code": 0】关键字断言成功【{
+  "code": 0,
+  "message": "check mqtt success.",
+  "payload": null
+}】
